@@ -5194,7 +5194,7 @@ GameObject:
   - component: {fileID: 809594073}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5652,17 +5652,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241147103}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -79.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0050369734, y: -0.7010346, z: -0.015815921, w: 0.7129341}
+  m_LocalPosition: {x: 0, y: 0, z: -97.91}
+  m_LocalScale: {x: 0.3232027, y: 0.47433, z: 0.71191}
   m_Children: []
   m_Father: {fileID: 74797685}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.859, y: -89.023, z: -1.697}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -25.8, y: -171.1}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -17.13, y: -170.95}
+  m_SizeDelta: {x: 151.6146, y: 50.93226}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1241147105
 MonoBehaviour:
@@ -5683,7 +5683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Building1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
