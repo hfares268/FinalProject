@@ -188,7 +188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182428668672322649}
   m_LocalRotation: {x: -0.3595058, y: 0.591765, z: 0.3466436, w: 0.6327781}
-  m_LocalPosition: {x: 0.047447022, y: -0.033839464, z: 0.0016835174}
+  m_LocalPosition: {x: 0.047447022, y: -0.036, z: -0.184}
   m_LocalScale: {x: 0.009645081, y: 0.0022457005, z: 0.0016986711}
   m_Children: []
   m_Father: {fileID: 618777942498878736}
@@ -201,7 +201,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182428668672322649}
-  m_Mesh: {fileID: 4300004, guid: 1d47ea6078c7f594e9aaf5f353bf61ba, type: 3}
+  m_Mesh: {fileID: 0}
 --- !u!23 &5728159857762971298
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 618777942495487280}
   - component: {fileID: 618777942496585712}
   m_Layer: 0
-  m_Name: Shinigami Badge
+  m_Name: Shinigami Badge 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
