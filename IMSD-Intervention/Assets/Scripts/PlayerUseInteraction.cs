@@ -67,7 +67,7 @@ public class PlayerUseInteraction : MonoBehaviour
 
 
         // And maybe do a log
-        Debug.Log("RAN INTO TRIGGER: " + other.name);
+        Debug.Log("PLAYER RAN INTO TRIGGER: " + other.name);
     }
 
     private void OnTriggerExit(Collider other)

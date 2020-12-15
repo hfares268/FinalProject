@@ -5,6 +5,9 @@ using UnityEngine;
 public class ObjectInstantiator : MonoBehaviour
 {
     public GameObject objectToInstantiate;
+    public Transform placeToInstantiateAt;
+
+    private bool CanInstantiate;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +17,24 @@ public class ObjectInstantiator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            Instantiate(objectToInstantiate, transform.position + transform.forward, Quaternion.identity, transform);
+            if (CanInstantiate)
+            {
 
+                Instantiate(objectToInstantiate, placeToInstantiateAt.position, placeToInstantiateAt.rotation, placeToInstantiateAt
+                    );
+            }
+            Debug.Log(CanInstantiate);
         }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        CanInstantiate = true;
+        Debug.Log("OnTriggerEnter on " + this.name);
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        CanInstantiate = false;
     }
 }
